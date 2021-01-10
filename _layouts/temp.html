@@ -1,0 +1,5 @@
+{% for image in site.static_files %}
+  {% if image.path contains 'assets/images/profile' %}
+<img width="100px" src="{{ image.path }}" alt="{{image.name}}">
+  {% endif %}
+{% endfor %}
