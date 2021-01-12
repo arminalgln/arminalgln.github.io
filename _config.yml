@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "arminalgln.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -33,10 +33,41 @@ github: [metadata]
 # Build settings
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "default"
+logo: "/assets/images/profile/profile.png"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+author:
+  name: "Armin Aligholian"
+  avatar: "/assets/images/profile/armin.jpg"
+  bio: "EE PhD candidate" # Note: Markdown is allowed
+  location: "CA|USA"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=N_pjdLQAAAAJ&hl=en"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/arminaligholian/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arminalgln"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/arminalgln/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCArPH12p8bxYoqfskvm_Bgw"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
