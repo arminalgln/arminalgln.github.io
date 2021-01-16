@@ -21,9 +21,7 @@
 title: A.A
 email: aalig002@ucr.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ I am a Electrical Engineering PhD candiate at UCR and passionate about smartgrid, Electric VEhicle (EV), renewable energies, sustainable developement, machine learning, deep learning and optimization problems.
 #baseurl: arminalgln.github.io # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,19 +32,29 @@ github: [metadata]
 include: ["_pages"]
 #include: ["_papers"]
 
+search: true
+
+teaser: /assets/images/code.jpg
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MW8SVEKHKB"
+    anonymize_ip: false # default
+
 # Build settings
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "default" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 #logo: "/assets/images/profile/profile.png"
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-include-cache
 
 author:
   name: "Armin Aligholian"
-  avatar: "/assets/images/profile/armin.JPG"
-  bio: "EE PhD candidate" # Note: Markdown is allowed
+  avatar: "/assets/images/profile/yarmin.jpg"
+  bio: "EE PhD candidate @ UCR" # Note: Markdown is allowed
   location: "CA|USA"
   links:
     - label: "Google Scholar"
@@ -66,6 +74,11 @@ author:
       url: "https://www.youtube.com/channel/UCArPH12p8bxYoqfskvm_Bgw"
 
 
+footer:
+  links:
+    - label: "For more information and any question please look at my contact page linked here! Thanks."
+      icon: "fab fa-fw fa-envelope"
+      url: /contact/
 
 collections:
   papers:
@@ -86,6 +99,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
   # _papers
   - scope:

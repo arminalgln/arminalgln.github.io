@@ -5,9 +5,14 @@ main:
   - title: "Publications"
     url: /publications/
 
+
+      
+  - title: "CV"
+    url: /assets/CV.pdf
+
   - title: "Blog"
     url: /posts/
-  
+
 
   - title: "About me"
     url: /about/
