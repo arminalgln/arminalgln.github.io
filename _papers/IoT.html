@@ -1,0 +1,17 @@
+---
+layout: archive
+title: IoT
+
+---
+
+<h1>Staff</h1>
+
+<ul>
+  {% for paper in site.papers %}
+    <li>
+      <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
+      <h3>{{ paper.path }}</h3>
+      <p>{{ page.title| markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
