@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Research
+title: Projects
 permalink: /projects/
 ---
 {% for project in site.projects%}

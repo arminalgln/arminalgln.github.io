@@ -1,17 +1,25 @@
 ---
-layout: archive
-title: IoT
-
+layout: splash
+title: Anomaly detection in iot-based pir occupancy sensors to improve building energy efficiency
+authors: "Ehsan samani, Palberz Khaledian, Armin Aligholian, Evangelos Papalexakis, Shawn Cun, Masoud H Nazari, Hamed Mohsenian-Rad"
+linktopaper: https://ieeexplore.ieee.org/abstract/document/9087681
+pdate: 20200217
+ptype: "conference"
+publisher: 2020 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT)
+pathtoimg: /assets/images/papers/iot1.png
 ---
 
-<h1>Staff</h1>
 
-<ul>
-  {% for paper in site.papers %}
-    <li>
-      <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-      <h3>{{ paper.path }}</h3>
-      <p>{{ page.title| markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<h5><a href="{{page.linktopaper}}">{{page.title}}</a></h5>
+<h5>Authors</h5>
+<p style="font-size:20px;">{{page.authors}}</p>
+
+<h5>Publisher</h5>
+<p>{{page.publisher}}</p>
+
+<h5>Abstract</h5>
+<p style="text-align:justify">In this paper, we study the real-world data streams from hundreds of digital passive infrared (PIR) occupancy sensors that are integrated into LED lighting fixtures in a recent Internet-of-Things (IoT) Building Energy Management System (BEMS) deployment in a large building in California. We first develop a data-driven method to detect anomalies in these data streams. We then use the results to enhance energy efficiency in the building and also open up opportunities to offer demand response services. In addition, we provide load forecasting for the lighting load in this building using a deep neural network architecture with high accuracy. We show that our approach can result in about 30% load reduction across lighting fixtures.</p>
+
+{% if page.pathtoimg %}
+<img src="{{page.pathtoimg}}" alt="{{page.title}}" />
+{% endif %}

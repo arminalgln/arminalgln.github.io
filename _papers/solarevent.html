@@ -1,0 +1,47 @@
+﻿---
+layout: splash
+title: Event-Based Analysis of Solar Power Distribution Feeder Using Micro-PMU Measurements
+authors: "Parviz Khaledian, Armin Aligholian, Hamed Mohsenian-Rad"
+linktopaper: https://arxiv.org/abs/2011.13082
+pdate: 20201126
+ptype: "conference"
+publisher: ISGT 2021
+pathtoimg: /assets/images/papers/solarevent.png
+---
+
+
+<h5><a href="{{page.linktopaper}}">{{page.title}}</a></h5>
+<h5>Authors</h5>
+<p style="font-size:20px;">{{page.authors}}</p>
+
+<h5>Publisher</h5>
+<p>{{page.publisher}}</p>
+
+<h5>Abstract</h5>
+<p style="text-align:justify">
+    —Solar distribution feeders are commonly used in
+    solar farms that are integrated into distribution substations.
+    In this paper, we focus on a real-world solar distribution
+    feeder and conduct an event-based analysis by using microPMU measurements. The solar distribution feeder of interest is a
+    behind-the-meter solar farm with a generation capacity of over 4
+    MW that has about 200 low-voltage distributed photovoltaic (PV)
+    inverters. The event-based analysis in this study seeks to address
+    the following practical matters. First, we conduct event detection
+    by using an unsupervised machine learning approach. For each
+    event, we determine the event’s source region by an impedancebased analysis, coupled with a descriptive analytic method. We
+    segregate the events that are caused by the solar farm, i.e., locallyinduced events, versus the events that are initiated in the grid,
+    i.e., grid-induced events, which caused a response by the solar
+    farm. Second, for the locally-induced events, we examine the
+    impact of solar production level and other significant parameters
+    to make statistical conclusions. Third, for the grid-induced events,
+    we characterize the response of the solar farm; and make
+    comparisons with the response of an auxiliary neighboring feeder
+    to the same events. Fourth, we scrutinize multiple specific events;
+    such as by revealing the dynamics to the control system of the
+    solar distribution feeder. The results and discoveries in this study
+    are informative to utilities and solar power industry
+</p>
+
+{% if page.pathtoimg %}
+<img src="{{page.pathtoimg}}" alt="{{page.title}}" />
+{% endif %}

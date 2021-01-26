@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A.A
+title: Under construction!!!
 email: aalig002@ucr.edu
 description: >- # this means to ignore newlines until "baseurl:"
  I am a Electrical Engineering PhD candiate at UCR and passionate about smartgrid, Electric VEhicle (EV), renewable energies, sustainable developement, machine learning, deep learning and optimization problems.
@@ -46,7 +46,7 @@ analytics:
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "default" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-#logo: "/assets/images/profile/profile.png"
+logo: "/assets/images/profile/under.png"
 plugins:
   #- jekyll-feed
   - jekyll-include-cache
@@ -83,6 +83,7 @@ footer:
 collections:
   papers:
     output: true
+
   projects:
     output: true
 
